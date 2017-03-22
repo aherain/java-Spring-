@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="dataBean" class="com.gaussic.bean.ConnectMysql">
+        <property name="className" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://10.20.2.22:3411/userLike"/>
+        <property name="username" value="mlswriter"/>
+        <property name="password" value="mLsW#1^iPo16QPsd"/>
+    </bean>
+</beans>
